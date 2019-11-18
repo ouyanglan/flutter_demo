@@ -1,0 +1,248 @@
+name: flutter_shopping_mall
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 轮播图
+  flutter_swiper: ^1.1.6
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/images/jd_logo.png
+    - asset/images/2.0x/jd_logo.png
+    - asset/images/3.0x/jd_logo.png
+    - asset/images/4.0x/jd_logo.png
+    - asset/images/home_swiper01.jpg
+    - asset/images/2.0x/home_swiper01.jpg
+    - asset/images/3.0x/home_swiper01.jpg
+    - asset/images/4.0x/home_swiper01.jpg
+    - asset/images/home_swiper02.jpg
+    - asset/images/2.0x/home_swiper02.jpg
+    - asset/images/3.0x/home_swiper02.jpg
+    - asset/images/4.0x/home_swiper02.jpg
+    - asset/images/home_swiper03.png
+    - asset/images/2.0x/home_swiper03.png
+    - asset/images/3.0x/home_swiper03.png
+    - asset/images/4.0x/home_swiper03.png
+    - asset/images/rili.png
+    - asset/images/2.0x/rili.png
+    - asset/images/3.0x/rili.png
+    - asset/images/4.0x/rili.png
+    - asset/images/alienware.jpg
+    - asset/images/book.jpg
+    - asset/images/clothes.jpg
+    - asset/images/computer.png
+    - asset/images/display.jpg
+    - asset/images/ipad.jpg
+    - asset/images/nike.jpg
+    - asset/images/phone01.jpg
+    - asset/images/phone02.jpg
+    - asset/images/senka.jpg
+    - asset/images/tissot.jpg
+    - asset/images/tumi.jpg
+    - asset/images/2.0x/alienware.jpg
+    - asset/images/2.0x/book.jpg
+    - asset/images/2.0x/clothes.jpg
+    - asset/images/2.0x/computer.png
+    - asset/images/2.0x/display.jpg
+    - asset/images/2.0x/ipad.jpg
+    - asset/images/2.0x/nike.jpg
+    - asset/images/2.0x/phone01.jpg
+    - asset/images/2.0x/phone02.jpg
+    - asset/images/2.0x/senka.jpg
+    - asset/images/2.0x/tissot.jpg
+    - asset/images/2.0x/tumi.jpg
+    - asset/images/3.0x/alienware.jpg
+    - asset/images/3.0x/book.jpg
+    - asset/images/3.0x/clothes.jpg
+    - asset/images/3.0x/computer.png
+    - asset/images/3.0x/display.jpg
+    - asset/images/3.0x/ipad.jpg
+    - asset/images/3.0x/nike.jpg
+    - asset/images/3.0x/phone01.jpg
+    - asset/images/3.0x/phone02.jpg
+    - asset/images/3.0x/senka.jpg
+    - asset/images/3.0x/tissot.jpg
+    - asset/images/3.0x/tumi.jpg
+    - asset/images/4.0x/alienware.jpg
+    - asset/images/4.0x/book.jpg
+    - asset/images/4.0x/clothes.jpg
+    - asset/images/4.0x/computer.png
+    - asset/images/4.0x/display.jpg
+    - asset/images/4.0x/ipad.jpg
+    - asset/images/4.0x/nike.jpg
+    - asset/images/4.0x/phone01.jpg
+    - asset/images/4.0x/phone02.jpg
+    - asset/images/4.0x/senka.jpg
+    - asset/images/4.0x/tissot.jpg
+    - asset/images/4.0x/tumi.jpg
+    - asset/images/1.jpg
+    - asset/images/2.jpg
+    - asset/images/3.jpg
+    - asset/images/4.jpg
+    - asset/images/5.jpg
+    - asset/images/6.jpg
+    - asset/images/7.jpg
+    - asset/images/8.jpg
+    - asset/images/9.jpg
+    - asset/images/10.jpg
+    - asset/images/11.jpg
+    - asset/images/12.jpg
+    - asset/images/13.jpg
+    - asset/images/14.jpg
+    - asset/images/15.jpg
+    - asset/images/16.jpg
+    - asset/images/17.jpg
+    - asset/images/18.jpg
+    - asset/images/19.jpg
+    - asset/images/20.jpg
+    - asset/images/2.0x/1.jpg
+    - asset/images/2.0x/2.jpg
+    - asset/images/2.0x/3.jpg
+    - asset/images/2.0x/4.jpg
+    - asset/images/2.0x/5.jpg
+    - asset/images/2.0x/6.jpg
+    - asset/images/2.0x/7.jpg
+    - asset/images/2.0x/8.jpg
+    - asset/images/2.0x/9.jpg
+    - asset/images/2.0x/10.jpg
+    - asset/images/2.0x/11.jpg
+    - asset/images/2.0x/12.jpg
+    - asset/images/2.0x/13.jpg
+    - asset/images/2.0x/14.jpg
+    - asset/images/2.0x/15.jpg
+    - asset/images/2.0x/16.jpg
+    - asset/images/2.0x/17.jpg
+    - asset/images/2.0x/18.jpg
+    - asset/images/2.0x/19.jpg
+    - asset/images/2.0x/20.jpg
+    - asset/images/3.0x/1.jpg
+    - asset/images/3.0x/2.jpg
+    - asset/images/3.0x/3.jpg
+    - asset/images/3.0x/4.jpg
+    - asset/images/3.0x/5.jpg
+    - asset/images/3.0x/6.jpg
+    - asset/images/3.0x/7.jpg
+    - asset/images/3.0x/8.jpg
+    - asset/images/3.0x/9.jpg
+    - asset/images/3.0x/10.jpg
+    - asset/images/3.0x/11.jpg
+    - asset/images/3.0x/12.jpg
+    - asset/images/3.0x/13.jpg
+    - asset/images/3.0x/14.jpg
+    - asset/images/3.0x/15.jpg
+    - asset/images/3.0x/16.jpg
+    - asset/images/3.0x/17.jpg
+    - asset/images/3.0x/18.jpg
+    - asset/images/3.0x/19.jpg
+    - asset/images/3.0x/20.jpg
+    - asset/images/4.0x/1.jpg
+    - asset/images/4.0x/2.jpg
+    - asset/images/4.0x/3.jpg
+    - asset/images/4.0x/4.jpg
+    - asset/images/4.0x/5.jpg
+    - asset/images/4.0x/6.jpg
+    - asset/images/4.0x/7.jpg
+    - asset/images/4.0x/8.jpg
+    - asset/images/4.0x/9.jpg
+    - asset/images/4.0x/10.jpg
+    - asset/images/4.0x/11.jpg
+    - asset/images/4.0x/12.jpg
+    - asset/images/4.0x/13.jpg
+    - asset/images/4.0x/14.jpg
+    - asset/images/4.0x/15.jpg
+    - asset/images/4.0x/16.jpg
+    - asset/images/4.0x/17.jpg
+    - asset/images/4.0x/18.jpg
+    - asset/images/4.0x/19.jpg
+    - asset/images/4.0x/20.jpg
+    - asset/images/123.png
+    - asset/images/phone1.jpg
+    - asset/images/phone2.jpg
+    - asset/images/phone3.jpg
+    - asset/images/phone4.jpg
+    - asset/images/phone5.jpg
+    - asset/images/phone6.jpg
+    - asset/images/gd.jpg
+    - asset/images/p1.jpg
+    - asset/images/p2.jpg
+    - asset/images/p3.jpg
+    - asset/images/p4.jpg
+    - asset/images/p5.jpg
+    - asset/images/p6.jpg
+  fonts:
+    - family: message
+      fonts:
+        - asset: asset/icons/message.ttf
+    - family: saomiao
+      fonts:
+        - asset: asset/icons/saomiao.ttf
+    - family: rili
+      fonts:
+        - asset: asset/icons/rili.ttf
+    - family: ss_time
+      fonts:
+        - asset: asset/icons/ss_time.ttf
+    - family: pm_cc
+      fonts:
+          - asset: asset/icons/pm_cc.ttf
+    - family: battery
+      fonts:
+          - asset: asset/icons/battery.ttf
+    - family: resolution
+      fonts:
+          - asset: asset/icons/resolution.ttf
+    - family: more
+      fonts:
+          - asset: asset/icons/more.ttf
+    - family: kefu
+      fonts:
+          - asset: asset/icons/kefu.ttf
+    - family: store
+      fonts:
+          - asset: asset/icons/store.ttf
+    - family: cart
+      fonts:
+          - asset: asset/icons/cart.ttf
+    - family: left
+      fonts:
+         - asset: asset/icons/left.ttf
+    - family: share
+      fonts:
+         - asset: asset/icons/share.ttf
+    - family: price
+      fonts:
+         - asset: asset/icons/price.ttf
+    - family: attention
+      fonts:
+         - asset: asset/icons/attention.ttf
