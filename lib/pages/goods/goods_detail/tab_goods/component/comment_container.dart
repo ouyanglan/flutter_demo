@@ -11,11 +11,11 @@ class CommentContainer extends StatefulWidget {
 class _CommentContainerState extends State<CommentContainer> {
 
   List<String> _images = [
+    "asset/images/phone1.jpg",
     "asset/images/phone2.jpg",
-    "asset/images/phone3.jpg",
-    "asset/images/phone4.jpg",
-    "asset/images/phone5.jpg",
-    "asset/images/phone6.jpg",
+    "asset/images/phone1.jpg",
+    "asset/images/phone2.jpg",
+    "asset/images/phone1.jpg",
   ];
 
   List<O> _list = new List();

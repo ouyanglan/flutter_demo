@@ -19,10 +19,10 @@ class _TabGoodsState extends State<TabGoods> {
   List<String> images = [
     "asset/images/phone1.jpg",
     "asset/images/phone2.jpg",
-    "asset/images/phone3.jpg",
-    "asset/images/phone4.jpg",
-    "asset/images/phone5.jpg",
-    "asset/images/phone6.jpg",
+    "asset/images/phone1.jpg",
+    "asset/images/phone2.jpg",
+    "asset/images/phone1.jpg",
+    "asset/images/phone2.jpg",
   ];
 
   @override
