@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_shopping_mall/tabbar/mine/component/widgets.dart';
+import 'package:flutter_shopping_mall/routers/routers.dart';
 
 class MinePage extends StatefulWidget {
   @override
@@ -13,47 +15,28 @@ class _MinePageState extends State<MinePage> with SingleTickerProviderStateMixin
   void initState() {
     // TODO: implement initState
     super.initState();
-
-//    for (int i = 1; i <= 19; i++) {
-//      list.add(
-//        Container(
-//          decoration: BoxDecoration(
-//            borderRadius: BorderRadius.all(Radius.circular(100))
-//          ),
-//          child: Card(
-////            shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
-//            child: Image.asset("asset/images/$i.jpg", fit: BoxFit.fill,),
-//          ),
-//        ),
-//      );
-//    }
-    for (int i = 1; i <= 50; i++) {
-      list.add(Text(i.toString()));
-    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: CustomScrollView(
-        slivers: <Widget>[
-          SliverAppBar(
-            title: Text("标题"),
-            expandedHeight: 230.0,
-            floating: true,
-            forceElevated: true,
-            pinned: false,
-            snap: true,
-          ),
-          SliverFixedExtentList(
-            itemExtent: 50.0,
-            delegate: new SliverChildBuilderDelegate((context, index) => new ListTile(
-                title: new Text("Item $index"),
+      appBar: AppBar(
+        title: Text("Flutter Widgets"),
+      ),
+      body: ListView(
+        children: el.WIDGET_LIST.asMap().keys.map((index) {
+          return GestureDetector(
+            onTap: () => Navigator.pushNamed(context, el.WIDGET_LIST[index].path),
+            child: Container(
+              margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
+              decoration: BoxDecoration(
+                border: BorderDirectional(bottom: BorderSide(color: Colors.black, width: 1))
               ),
-              childCount: 30,
+              padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
+              child: Text(el.WIDGET_LIST[index].name),
             ),
-          )
-        ],
+          );
+        }).toList(),
       ),
     );
   }

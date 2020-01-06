@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shopping_mall/routers/routers.dart';
-import 'package:flutter_shopping_mall/tab_bar.dart';
 
 void main() => runApp(MyApp());
 
