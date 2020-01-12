@@ -2,8 +2,8 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/InkIcon.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/scroll_bloc.dart';
+import 'package:flutter_demo/tabbar/home/component/InkIcon.dart';
+import 'package:flutter_demo/tabbar/home/component/scroll_bloc.dart';
 
 class XAppBar extends StatefulWidget implements PreferredSizeWidget {
 

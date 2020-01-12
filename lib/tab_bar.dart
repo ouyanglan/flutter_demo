@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/tabbar/home/home.dart';
-import 'package:flutter_shopping_mall/tabbar/category/category.dart';
-import 'package:flutter_shopping_mall/tabbar/cart/cart.dart';
-import 'package:flutter_shopping_mall/tabbar/mine/mine.dart';
+import 'package:flutter_demo/tabbar/home/home.dart';
+import 'package:flutter_demo/tabbar/category/category.dart';
+import 'package:flutter_demo/tabbar/cart/cart.dart';
+import 'package:flutter_demo/tabbar/mine/mine.dart';
 
 class TabBarPage extends StatefulWidget {
   @override
@@ -40,7 +40,7 @@ class _TabBarPageState extends State<TabBarPage> {
           });
         },
         iconSize: 30,
-        fixedColor: Colors.red,
+        selectedItemColor: Colors.red,
         type: BottomNavigationBarType.fixed,
       ),
     );

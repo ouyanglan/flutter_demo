@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/tabbar/mine/component/title_text.dart';
-import 'package:flutter_shopping_mall/tabbar/mine/component/content_text.dart';
+import 'package:flutter_demo/tabbar/mine/component/title_text.dart';
+import 'package:flutter_demo/tabbar/mine/component/content_text.dart';
 
 class AbsorbPointerPage extends StatefulWidget {
   @override

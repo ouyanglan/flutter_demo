@@ -1,4 +1,4 @@
-name: flutter_shopping_mall
+name: flutter_demo
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -18,6 +18,8 @@ environment:
 
 dependencies:
   flutter:
+    sdk: flutter
+  flutter_localizations:
     sdk: flutter
   # 轮播图
   flutter_swiper: ^1.1.6
@@ -200,6 +202,7 @@ flutter:
     - asset/images/p4.jpg
     - asset/images/p5.jpg
     - asset/images/p6.jpg
+    - asset/images/dog1.jpg
   fonts:
     - family: message
       fonts:

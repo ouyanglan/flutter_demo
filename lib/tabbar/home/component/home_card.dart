@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/row_text.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/row_images.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/row_text_container.dart';
+import 'package:flutter_demo/tabbar/home/component/row_text.dart';
+import 'package:flutter_demo/tabbar/home/component/row_images.dart';
+import 'package:flutter_demo/tabbar/home/component/row_text_container.dart';
 
 class HomeCard extends StatelessWidget {
 

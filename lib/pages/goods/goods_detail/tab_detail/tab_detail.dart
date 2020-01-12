@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_detail/component/top_buttons.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_detail/component/introduce.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_detail/component/specification.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_detail/component/after_sales.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_detail/component/top_buttons.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_detail/component/introduce.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_detail/component/specification.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_detail/component/after_sales.dart';
 
 
 class DetailPage extends StatefulWidget {

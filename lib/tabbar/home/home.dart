@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/app_bar.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/scroll_bloc.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/home_card.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/tableSwiper.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/oval_bottom_border_clipper.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/topSwiper.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/listTab.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/list_goods.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/list_goods_bloc.dart';
+import 'package:flutter_demo/tabbar/home/component/app_bar.dart';
+import 'package:flutter_demo/tabbar/home/component/scroll_bloc.dart';
+import 'package:flutter_demo/tabbar/home/component/home_card.dart';
+import 'package:flutter_demo/tabbar/home/component/tableSwiper.dart';
+import 'package:flutter_demo/tabbar/home/component/oval_bottom_border_clipper.dart';
+import 'package:flutter_demo/tabbar/home/component/topSwiper.dart';
+import 'package:flutter_demo/tabbar/home/component/listTab.dart';
+import 'package:flutter_demo/tabbar/home/component/list_goods.dart';
+import 'package:flutter_demo/tabbar/home/component/list_goods_bloc.dart';
 
 class HomePage extends StatefulWidget {
   @override

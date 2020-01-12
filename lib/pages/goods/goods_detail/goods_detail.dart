@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_goods/component/bottom_bar.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_goods/component/gd_app_bar.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_goods/tab_goods.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_detail/tab_detail.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_comment/tab_comment.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_recommend/tab_recommend.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_goods/component/gd_app_bar_bloc.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_goods/component/bottom_bar.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_goods/component/gd_app_bar.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_goods/tab_goods.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_detail/tab_detail.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_comment/tab_comment.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_recommend/tab_recommend.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_goods/component/gd_app_bar_bloc.dart';
 
 
 class GoodsDetail extends StatefulWidget {

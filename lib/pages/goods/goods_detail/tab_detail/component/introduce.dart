@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_detail/component/product_info.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_detail/component/product_info.dart';
 
 class IntroducePage extends StatefulWidget {
   @override

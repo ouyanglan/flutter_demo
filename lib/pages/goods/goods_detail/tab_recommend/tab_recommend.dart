@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/components/XText.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_recommend/component/top_region.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/list_goods.dart';
+import 'package:flutter_demo/components/XText.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_recommend/component/top_region.dart';
+import 'package:flutter_demo/tabbar/home/component/list_goods.dart';
 
 class RecommendPage extends StatefulWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/components/XText.dart';
+import 'package:flutter_demo/components/XText.dart';
 
 typedef OnCurrentFlag = void Function(bool currentFlag);
 

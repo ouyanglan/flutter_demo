@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/tabbar/mine/component/widgets.dart';
-import 'package:flutter_shopping_mall/routers/routers.dart';
+import 'package:flutter_demo/tabbar/mine/component/widgets.dart';
+import 'package:flutter_demo/routers/routers.dart';
 
 class MinePage extends StatefulWidget {
   @override

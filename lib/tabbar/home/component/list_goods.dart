@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/tabbar/home/component/list_goods_bloc.dart';
+import 'package:flutter_demo/tabbar/home/component/list_goods_bloc.dart';
 import 'dart:math';
 
 class ListGoods extends StatefulWidget {

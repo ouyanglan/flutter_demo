@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/components/XRaisedButton.dart';
-import 'package:flutter_shopping_mall/components/XText.dart';
+import 'package:flutter_demo/components/XRaisedButton.dart';
+import 'package:flutter_demo/components/XText.dart';
 
 class BottomBar extends StatelessWidget {
 

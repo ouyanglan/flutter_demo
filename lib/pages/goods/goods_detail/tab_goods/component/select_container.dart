@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_shopping_mall/pages/goods/goods_detail/tab_goods/component/activity_container.dart';
-import 'package:flutter_shopping_mall/components/XText.dart';
+import 'package:flutter_demo/pages/goods/goods_detail/tab_goods/component/activity_container.dart';
+import 'package:flutter_demo/components/XText.dart';
 
 class SelectContainer extends StatefulWidget {
   @override
