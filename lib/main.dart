@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '京东',
       initialRoute: "/",
-      debugShowCheckedModeBanner: false,
+//      debugShowCheckedModeBanner: false,
       onGenerateRoute: onGenerateRoute,
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,

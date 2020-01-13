@@ -40,6 +40,16 @@ class El {
     O("CupertinoDatePicker", "/cupertinoDatePicker"),
     O("CupertinoFullscreenDialogTransition", "/cupertinoFullscreenDialogTransition"),
     O("CupertinoNavigationBar", "/cupertinoNavigationBar"),
+    O("CupertinoPageTransition", "/cupertinoPageTransition"),
+    O("CupertinoPicker", "/cupertinoPicker"),
+    O("CupertinoPopupSurface", "/cupertinoPopupSurface"),
+    O("CupertinoScrollbar", "/cupertinoScrollbar"),
+    O("CupertinoSegmentedControl", "/cupertinoSegmentedControl"),
+    O("CupertinoSlider", "/CupertinoSlider"),
+    O("CupertinoSwitch", "/CupertinoSwitch"),
+    O("CupertinoTabBar", "/CupertinoTabBar"),
+//    O("CupertinoTabScaffold", "/CupertinoTabScaffold"),
+    O("CupertinoTextField", "/CupertinoTextField"),
   ];
 }
 El el = El();

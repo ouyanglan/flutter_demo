@@ -45,6 +45,16 @@ import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_button.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_date_picker.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_fullscreen_dialog_transition.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_navigation_bar.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_page_transition.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_picker.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_popup_surface.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_scrollbar.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_segmented_control.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_slider.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_switch.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_tab_bar.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_tab_scaffold.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_text_field.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -92,6 +102,16 @@ final routers = {
   "/cupertinoDatePicker": (context) => CupertinoDatePickerPage(),
   "/cupertinoFullscreenDialogTransition": (context) => CupertinoFullscreenDialogTransitionPage(),
   "/cupertinoNavigationBar": (context) => CupertinoNavigationBarPage(),
+  "/cupertinoPageTransition": (context) => CupertinoPageTransitionPage(),
+  "/cupertinoPicker": (context) => CupertinoPickerPage(),
+  "/cupertinoPopupSurface": (context) => CupertinoPopupSurfacePage(),
+  "/cupertinoScrollbar": (context) => CupertinoScrollbarPage(),
+  "/cupertinoSegmentedControl": (context) => CupertinoSegmentedControlPage(),
+  "/CupertinoSlider": (context) => CupertinoSliderPage(),
+  "/CupertinoSwitch": (context) => CupertinoSwitchPage(),
+  "/CupertinoTabBar": (context) => CupertinoTabBarPage(),
+  "/CupertinoTabScaffold": (context) => CupertinoTabScaffoldPage(),
+  "/CupertinoTextField": (context) => CupertinoTextFieldPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {
