@@ -55,6 +55,9 @@ class El {
     O("CustomPaint", "/CustomPaint"),
     O("CustomScrollView", "/CustomScrollView"),
     O("CustomSingleChildLayout", "/CustomSingleChildLayout"),
+    O("DataTable", "/DataTable"),
+    O("DateTimePacker", "/DateTimePacker"),
+    O("DecoratedBox", "/DecoratedBox"),
   ];
 }
 El el = El();

@@ -60,6 +60,9 @@ import 'package:flutter_demo/tabbar/mine/widgets/c/custom_multi_child_layout.dar
 import 'package:flutter_demo/tabbar/mine/widgets/c/custom_paint.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/c/custom_scroll_view.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/c/custom_single_child_layout.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/data_table.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/date_time_picker.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/decorated_box.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -121,6 +124,9 @@ final routers = {
   "/CustomMultiChildLayout": (context) => CustomMultiChildLayoutPage(),
   "/CustomPaint": (context) => CustomPaintPage(),
   "/CustomSingleChildLayout": (context) => CustomSingleChildLayoutPage(),
+  "/DataTable": (context) => DataTablePage(),
+  "/DateTimePacker": (context) => DateTimePackerPage(),
+  "/DecoratedBox": (context) => DecoratedBoxPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {
