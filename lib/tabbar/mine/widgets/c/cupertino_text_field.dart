@@ -13,17 +13,21 @@ class _CupertinoTextFieldPageState extends State<CupertinoTextFieldPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("CupertinoSwitch"),
+        title: Text("CupertinoTextField"),
       ),
       body:  ListView(
         children: <Widget>[
           TitleTextPage("简介:"),
-          ContentTextPage(["ios风格switch组件。"]),
+          ContentTextPage(["ios风格输入框。"]),
           TitleTextPage("属性:"),
           ContentTextPage([
-            "value: true（开）， false（关）。",
-            "onChanged：开关状态发生改变时触发，接收参数为改变的值。",
-            "activeColor：打开状态下的颜色。"
+            "controller: 文本控制器，可以设置初始值。",
+            "prefix: 前缀部分，接收一个Widget。",
+            "suffix: 后缀部分，接收一个Widget。",
+            "decoration: 设置边框、圆角样式。",
+            "onTap： 点击输入框时触发的函数。",
+            "onSubmitted: 点击软键盘的确认时触发的函数。",
+            "onChanged：输入框中的值发生改变时触发的函数。",
           ]),
           TitleTextPage("例子:"),
           CupertinoTextFieldDemo()
@@ -58,10 +62,21 @@ class _CupertinoTextFieldDemoState extends State<CupertinoTextFieldDemo> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: CupertinoTextField(
-        controller: _textController,
-        prefix: Icon(Icons.search)
+    return Center(
+      child: Container(
+        width: 300,
+        child: CupertinoTextField(
+          controller: _textController,
+          prefix: Icon(Icons.search),
+          suffix: Icon(Icons.phone_iphone),
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(5),
+              border: Border.all(color: Colors.lightBlue, width: 1)
+          ),
+          onTap: () => print("onTap"),
+          onChanged: (v) => print("onChange: $v"),
+          onSubmitted: (v) => print("onSubmitted: $v"),
+        ),
       ),
     );
   }

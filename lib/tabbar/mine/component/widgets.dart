@@ -50,6 +50,11 @@ class El {
     O("CupertinoTabBar", "/CupertinoTabBar"),
 //    O("CupertinoTabScaffold", "/CupertinoTabScaffold"),
     O("CupertinoTextField", "/CupertinoTextField"),
+    O("CupertinoTimerPicker", "/CupertinoTimerPicker"),
+    O("CustomMultiChildLayout", "/CustomMultiChildLayout"),
+    O("CustomPaint", "/CustomPaint"),
+    O("CustomScrollView", "/CustomScrollView"),
+    O("CustomSingleChildLayout", "/CustomSingleChildLayout"),
   ];
 }
 El el = El();

@@ -55,6 +55,11 @@ import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_switch.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_tab_bar.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_tab_scaffold.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_text_field.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/cupertino_timer_picker.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/custom_multi_child_layout.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/custom_paint.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/custom_scroll_view.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/c/custom_single_child_layout.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -112,6 +117,10 @@ final routers = {
   "/CupertinoTabBar": (context) => CupertinoTabBarPage(),
   "/CupertinoTabScaffold": (context) => CupertinoTabScaffoldPage(),
   "/CupertinoTextField": (context) => CupertinoTextFieldPage(),
+  "/CupertinoTimerPicker": (context) => CupertinoTimerPickerPage(),
+  "/CustomMultiChildLayout": (context) => CustomMultiChildLayoutPage(),
+  "/CustomPaint": (context) => CustomPaintPage(),
+  "/CustomSingleChildLayout": (context) => CustomSingleChildLayoutPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {
