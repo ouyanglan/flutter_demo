@@ -63,6 +63,14 @@ import 'package:flutter_demo/tabbar/mine/widgets/c/custom_single_child_layout.da
 import 'package:flutter_demo/tabbar/mine/widgets/d/data_table.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/d/date_time_picker.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/d/decorated_box.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/decorated_box_transition.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/default_text_style.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/dismissible.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/divider.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/drag_target.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/draggable.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/drawer.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/d/dropdown_button.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -127,6 +135,13 @@ final routers = {
   "/DataTable": (context) => DataTablePage(),
   "/DateTimePacker": (context) => DateTimePackerPage(),
   "/DecoratedBox": (context) => DecoratedBoxPage(),
+  "/DecoratedBoxTransition": (context) => DecoratedBoxTransitionPage(),
+  "/DefaultTextStyle": (context) => DefaultTextStylePage(),
+  "/Dismissible": (context) => DismissiblePage(),
+  "/Divider": (context) => DividerPage(),
+  "/DragTarget": (context) => DragTargetPage(),
+  "/Draggable": (context) => DraggablePage(),
+  "/DropdownButton": (context) => DropdownButtonPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {

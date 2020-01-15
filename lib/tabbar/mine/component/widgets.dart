@@ -58,6 +58,14 @@ class El {
     O("DataTable", "/DataTable"),
     O("DateTimePacker", "/DateTimePacker"),
     O("DecoratedBox", "/DecoratedBox"),
+    O("DecoratedBoxTransition", "/DecoratedBoxTransition"),
+    O("DefaultTextStyle", "/DefaultTextStyle"),
+    O("Dismissible", "/Dismissible"),
+    O("Divider", "/Divider"),
+    O("DragTarget", "/DragTarget"),
+    O("Draggable", "/Draggable"),
+    O("Drawer", "/Drawer"),
+    O("DropdownButton", "/DropdownButton"),
   ];
 }
 El el = El();
