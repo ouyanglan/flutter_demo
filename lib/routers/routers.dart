@@ -85,6 +85,8 @@ import 'package:flutter_demo/tabbar/mine/widgets/f/form_field.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/f/fractional_translation.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/f/fractionally_sized_box.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/f/future_builder.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/g/gesture_detector.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/g/grid_view.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -169,7 +171,8 @@ final routers = {
   "/FormField": (context) => FormFieldPage(),
   "/FractionalTranslation": (context) => FractionalTranslationPage(),
   "/FractionallySizedBox": (context) => FractionallySizedBoxPage(),
-  "/FutureBuilder": (context) => FutureBuilderPage(),
+  "/GestureDetector": (context) => GestureDetectorPage(),
+  "/GridView": (context) => GridViewPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {

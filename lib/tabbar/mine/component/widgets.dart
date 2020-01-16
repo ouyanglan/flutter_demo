@@ -79,6 +79,8 @@ class El {
     O("FormField", "/FormField"),
     O("FractionallySizedBox", "/FractionallySizedBox"),
     O("FutureBuilder", "/FutureBuilder"),
+    O("GestureDetector", "/GestureDetector"),
+    O("GridView", "/GridView"),
   ];
 }
 El el = El();
