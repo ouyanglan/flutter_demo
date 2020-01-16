@@ -55,9 +55,8 @@ class _CupertinoTextFieldDemoState extends State<CupertinoTextFieldDemo> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
-    super.dispose();
     _textController.dispose();
+    super.dispose();
   }
 
   @override

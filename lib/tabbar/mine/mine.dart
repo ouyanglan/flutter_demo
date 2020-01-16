@@ -25,15 +25,10 @@ class _MinePageState extends State<MinePage> with SingleTickerProviderStateMixin
       ),
       body: ListView(
         children: el.WIDGET_LIST.asMap().keys.map((index) {
-          return GestureDetector(
-            onTap: () => Navigator.pushNamed(context, el.WIDGET_LIST[index].path),
-            child: Container(
-              margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
-              decoration: BoxDecoration(
-                border: BorderDirectional(bottom: BorderSide(color: Colors.black, width: 1))
-              ),
-              padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
-              child: Text(el.WIDGET_LIST[index].name),
+          return Card(
+            child: ListTile(
+              onTap: () => Navigator.pushNamed(context, el.WIDGET_LIST[index].path),
+              leading: Text(el.WIDGET_LIST[index].name),
             ),
           );
         }).toList(),

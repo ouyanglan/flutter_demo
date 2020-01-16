@@ -22,7 +22,7 @@ class _AnimatedListStatePageState extends State<AnimatedListStatePage> {
           ContentTextPage([
 
           ]),
-          TitleTextPage("演示:"),
+          TitleTextPage("例子:"),
         ],
       ),
     );

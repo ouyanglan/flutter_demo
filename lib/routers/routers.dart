@@ -71,6 +71,20 @@ import 'package:flutter_demo/tabbar/mine/widgets/d/drag_target.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/d/draggable.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/d/drawer.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/d/dropdown_button.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/e/exclude_semantics.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/e/expanded.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/e/expansion_panel.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/fade_transition.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/fitted_box.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/flat_button.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/floating_action_button.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/flow.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/flutter_logo.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/form.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/form_field.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/fractional_translation.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/fractionally_sized_box.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/f/future_builder.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -142,6 +156,20 @@ final routers = {
   "/DragTarget": (context) => DragTargetPage(),
   "/Draggable": (context) => DraggablePage(),
   "/DropdownButton": (context) => DropdownButtonPage(),
+  "/ExcludeSemantics": (context) => ExcludeSemanticsPage(),
+  "/Expanded": (context) => ExpandedPage(),
+  "/ExpansionPanel": (context) => ExpansionPanelPage(),
+  "/FadeTransition": (context) => FadeTransitionPage(),
+  "/FittedBox": (context) => FittedBoxPage(),
+  "/FlatButton": (context) => FlatButtonPage(),
+  "/FloatingActionButton": (context) => FloatingActionButtonPage(),
+  "/Flow": (context) => FlowPage(),
+  "/FlutterLogo": (context) => FlutterLogoPage(),
+  "/Form": (context) => FormPage(),
+  "/FormField": (context) => FormFieldPage(),
+  "/FractionalTranslation": (context) => FractionalTranslationPage(),
+  "/FractionallySizedBox": (context) => FractionallySizedBoxPage(),
+  "/FutureBuilder": (context) => FutureBuilderPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {

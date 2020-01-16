@@ -25,11 +25,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin  {
   @override
   void dispose() {
     // TODO: implement dispose
-    super.dispose();
     _scrollController.dispose();
     controller.dispose();
     bLoc.close();
     listGoodsBLoc.close();
+    super.dispose();
   }
 
   Color indexColor = Colors.red;

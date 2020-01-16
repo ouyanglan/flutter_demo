@@ -28,7 +28,7 @@ class _AnimatedDefaultTextStylePageState extends State<AnimatedDefaultTextStyleP
             "overflow: 如何处理溢出",
             "softWrap: 待补充"
           ]),
-          TitleTextPage("演示:"),
+          TitleTextPage("例子:"),
           AnimatedDefaultTextStyleDemo()
         ],
       ),

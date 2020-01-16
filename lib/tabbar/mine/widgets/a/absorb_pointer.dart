@@ -20,7 +20,7 @@ class _AbsorbPointerPageState extends State<AbsorbPointerPage> {
           ContentTextPage(["可以防止子节点接收指针事件"]),
           TitleTextPage("属性介绍:"),
           ContentTextPage(["absorbing: 是否吸收指针事件, 默认true(吸收指针事件, 子节点不接收指针事件)"]),
-          TitleTextPage("演示:"),
+          TitleTextPage("例子:"),
           AbsorbPointerDemo()
         ],
       ),
@@ -29,7 +29,7 @@ class _AbsorbPointerPageState extends State<AbsorbPointerPage> {
 }
 
 /*
-  AbsorbPointer 演示
+  AbsorbPointer 例子
  */
 class AbsorbPointerDemo extends StatefulWidget {
   @override

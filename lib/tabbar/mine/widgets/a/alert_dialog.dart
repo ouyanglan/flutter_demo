@@ -36,7 +36,7 @@ class _AlertDialogPageState extends State<AlertDialogPage> {
     this.semanticLabel,
     this.shape,
            */
-          TitleTextPage("演示:"),
+          TitleTextPage("例子:"),
           AlertDialogDemo(),
         ],
       )
@@ -44,7 +44,7 @@ class _AlertDialogPageState extends State<AlertDialogPage> {
   }
 }
 
-// 演示
+// 例子
 class AlertDialogDemo extends StatefulWidget {
   @override
   _AlertDialogDemoState createState() => _AlertDialogDemoState();
@@ -71,7 +71,7 @@ class _AlertDialogDemoState extends State<AlertDialogDemo> {
       builder: (BuildContext context) {
         return AlertDialog(
           title: Text(
-            "演示",
+            "例子",
             textAlign: TextAlign.center,
           ),
           content: Container(

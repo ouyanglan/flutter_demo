@@ -41,9 +41,8 @@ class _TabGoodsState extends State<TabGoods> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
-    super.dispose();
     _scrollController.dispose();
+    super.dispose();
   }
 
   @override

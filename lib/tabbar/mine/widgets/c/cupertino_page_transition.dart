@@ -42,10 +42,9 @@ class _CupertinoPageTransitionPageState extends State<CupertinoPageTransitionPag
 
   @override
   void dispose() {
-    // TODO: implement dispose
-    super.dispose();
     _primaryController.dispose();
     _secondaryController.dispose();
+    super.dispose();
   }
 
   @override

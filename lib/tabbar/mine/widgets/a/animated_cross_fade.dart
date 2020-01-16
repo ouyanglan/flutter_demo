@@ -29,7 +29,7 @@ class _AnimatedCrossFadePageState extends State<AnimatedCrossFadePage> {
             "sizeCurve: 两个子元素淡入淡出之间的动画执行曲线",
             "alignment: 对齐"
           ]),
-          TitleTextPage("演示:"),
+          TitleTextPage("例子:"),
           AnimatedCrossFadeDemo()
         ],
       ),

@@ -25,7 +25,7 @@ class _AnimatedContainerPageState extends State<AnimatedContainerPage> {
             "decoration: 设置颜色, 背景图片, 圆角...",
             "curve: 设置执行动画的曲线"
           ]),
-          TitleTextPage("演示:"),
+          TitleTextPage("例子:"),
           AnimatedContainerDemo()
         ],
       ),
@@ -33,7 +33,7 @@ class _AnimatedContainerPageState extends State<AnimatedContainerPage> {
   }
 }
 
-// 演示
+// 例子
 class AnimatedContainerDemo extends StatefulWidget {
   @override
   _AnimatedContainerDemoState createState() => _AnimatedContainerDemoState();

@@ -49,6 +49,7 @@ class _CircularProgressIndicatorDemoState extends State<CircularProgressIndicato
     // TODO: implement initState
     super.initState();
     _controller = AnimationController(
+      duration: Duration(seconds: 2),
       vsync: this,
     )..repeat();
     _animation = new ColorTween(
@@ -58,9 +59,8 @@ class _CircularProgressIndicatorDemoState extends State<CircularProgressIndicato
 
   @override
   void dispose() {
-    // TODO: implement dispose
-    super.dispose();
     _controller.dispose();
+    super.dispose();
   }
 
   @override

@@ -24,7 +24,7 @@ class _AlignPageState extends State<AlignPage> {
             "widthFactor: 如果不为空, 宽 = 子元素的宽度 * widthFactor",
             "heightFactor: 如果不为空, 高 = 子元素的高度 * heightFactor"
           ]),
-          TitleTextPage("演示:"),
+          TitleTextPage("例子:"),
           AlignDemo()
         ],
       ),
@@ -32,7 +32,7 @@ class _AlignPageState extends State<AlignPage> {
   }
 }
 
-// 演示
+// 例子
 class AlignDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

@@ -23,7 +23,7 @@ class _AnimatedBuilderPageState extends State<AnimatedBuilderPage> {
           ContentTextPage([
             "animation: 动画控制器"
           ]),
-          TitleTextPage("演示:"),
+          TitleTextPage("例子:"),
           AnimatedBuilderDemo()
         ],
       ),
@@ -31,7 +31,7 @@ class _AnimatedBuilderPageState extends State<AnimatedBuilderPage> {
   }
 }
 
-// 演示
+// 例子
 class AnimatedBuilderDemo extends StatefulWidget {
   @override
   _AnimatedBuilderDemoState createState() => _AnimatedBuilderDemoState();

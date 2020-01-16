@@ -4,11 +4,11 @@ import 'dart:ui';
 
 class TableSwiper extends StatelessWidget {
   List<String> textDataList = [
-    "京东超市",
+    "**超市",
     "数码电器",
-    "京东服饰",
-    "京东生鲜",
-    "京东到家",
+    "**服饰",
+    "**生鲜",
+    "**到家",
     "充值缴费",
     "领金豆",
     "领劵",
@@ -66,11 +66,11 @@ class TableSwiper extends StatelessWidget {
           onIndexChanged: (index) {
             if (index == 0) {
               textDataList = [
-                "京东超市",
+                "**超市",
                 "数码电器",
-                "京东服饰",
-                "京东生鲜",
-                "京东到家",
+                "**服饰",
+                "**生鲜",
+                "**到家",
                 "充值缴费",
                 "领金豆",
                 "领劵",
@@ -80,10 +80,10 @@ class TableSwiper extends StatelessWidget {
             } else {
               textDataList = [
                 "海囤全球",
-                "京东拍卖",
+                "**拍卖",
                 "唯品会",
                 "沃尔玛",
-                "京东旅行",
+                "**旅行",
                 "看病购药",
                 "拍拍二手",
                 "邀请挣钱",

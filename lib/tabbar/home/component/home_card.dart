@@ -25,7 +25,7 @@ class HomeCard extends StatelessWidget {
                   Row(
                     children: <Widget>[
                       Text(
-                        "京东秒杀",
+                        "**秒杀",
                         style: TextStyle(
                           fontWeight: FontWeight.bold
                         ),
@@ -95,7 +95,7 @@ class HomeCard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   RowTextAndContainer("品牌闪购", "汇大牌好价 >", (MediaQuery.of(context).size.width - 50)/3.8, Colors.purple),
-                  RowText("京东视频", "逛好店", (MediaQuery.of(context).size.width - 50)/2.2),
+                  RowText("**视频", "逛好店", (MediaQuery.of(context).size.width - 50)/2.2),
                 ],
               ),
             ),

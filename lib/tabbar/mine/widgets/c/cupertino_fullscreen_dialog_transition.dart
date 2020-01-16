@@ -55,9 +55,8 @@ class _CupertinoFullscreenDialogTransitionDemoState extends State<CupertinoFulls
 
   @override
   void dispose() {
-    // TODO: implement dispose
-    super.dispose();
     _controller.dispose();
+    super.dispose();
   }
 
   @override

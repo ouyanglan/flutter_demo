@@ -104,10 +104,15 @@ class _XAppBarState extends State<XAppBar> {
                     opacity: opacity > 1 ? 1 : opacity < 0 ? 0 : opacity,
                     child: Container(
                       height: logoHeight,
-                      child: Image.asset(
-                        "asset/images/jd_logo.png",
-                        fit: BoxFit.cover,
+                      child: FlutterLogo(
+                        colors: Colors.amber,
+                        style: FlutterLogoStyle.horizontal,
+                        size: 100,
                       ),
+//                      child: Image.asset(
+//                        "asset/images/jd_logo.png",
+//                        fit: BoxFit.cover,
+//                      ),
                     ),
                   ),
                   Container(

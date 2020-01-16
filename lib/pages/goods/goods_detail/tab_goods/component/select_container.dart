@@ -146,7 +146,7 @@ class _SelectContainerState extends State<SelectContainer> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    PContainer("京东发货&售后"),
+                    PContainer("**发货&售后"),
                     PContainer("7天无理由退货"),
                     PContainer("京尊达"),
                   ],

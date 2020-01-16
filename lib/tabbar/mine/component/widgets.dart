@@ -66,6 +66,19 @@ class El {
     O("Draggable", "/Draggable"),
     O("Drawer", "/Drawer"),
     O("DropdownButton", "/DropdownButton"),
+    O("ExcludeSemantics", "/ExcludeSemantics"),
+    O("Expanded", "/Expanded"),
+    O("ExpansionPanel", "/ExpansionPanel"),
+    O("FadeTransition", "/FadeTransition"),
+    O("FittedBox", "/FittedBox"),
+    O("FlatButton", "/FlatButton"),
+    O("FloatingActionButton", "/FloatingActionButton"),
+    O("Flow", "/Flow"),
+    O("FlutterLogo", "/FlutterLogo"),
+    O("Form", "/Form"),
+    O("FormField", "/FormField"),
+    O("FractionallySizedBox", "/FractionallySizedBox"),
+    O("FutureBuilder", "/FutureBuilder"),
   ];
 }
 El el = El();
