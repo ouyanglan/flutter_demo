@@ -12,20 +12,27 @@ class TopSwiper extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height - 270, // 270 = 价格70 + 介绍120 + 底部80
-      child: Swiper(
-          itemBuilder: (BuildContext context, int index) {
-            return Image.asset(images[index], fit: BoxFit.fill,);
-          },
-          itemCount: images.length,
-          autoplay: true,
-          scrollDirection: Axis.horizontal,
-          pagination: new SwiperPagination(
-              alignment: Alignment(1.0, 1.0),
-              builder: new FractionPaginationBuilder(
-                color: Colors.black26,
-                activeColor: Colors.black45
+      child: Stack(
+        children: <Widget>[
+          Hero(
+            tag: "hero",
+            child: Swiper(
+              itemBuilder: (BuildContext context, int index) {
+                return Image.asset(images[index], fit: BoxFit.fill,);
+              },
+              itemCount: images.length,
+              autoplay: true,
+              scrollDirection: Axis.horizontal,
+              pagination: new SwiperPagination(
+                alignment: Alignment(1.0, 1.0),
+                builder: new FractionPaginationBuilder(
+                    color: Colors.black26,
+                    activeColor: Colors.black45
+                )
               )
+            )
           )
+        ],
       ),
     );
   }

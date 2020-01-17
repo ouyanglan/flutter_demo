@@ -87,6 +87,26 @@ import 'package:flutter_demo/tabbar/mine/widgets/f/fractionally_sized_box.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/f/future_builder.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/g/gesture_detector.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/g/grid_view.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/h/hero1.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/h/hero2.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/i/icon.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/i/icon_button.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/i/ignore_pointer.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/i/image.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/i/indexed_stack.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/i/intrinsic_height.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/i/intrinsic_width.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/l/layout_builder.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/l/limited_box.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/l/linear_progress_indicator.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/l/list_body.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/l/list_tile.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/l/list_view.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/l/long_press_draggable.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/m/material_app.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/m/media_query.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/m/merge_semantics.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/n/navigator.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -173,6 +193,26 @@ final routers = {
   "/FractionallySizedBox": (context) => FractionallySizedBoxPage(),
   "/GestureDetector": (context) => GestureDetectorPage(),
   "/GridView": (context) => GridViewPage(),
+  "/Hero": (context) => HeroPage(),
+  "/Hero2": (context) => HeroPage2(),
+  "/Icon": (context) => IconPage(),
+  "/IconButton": (context) => IconButtonPage(),
+  "/IgnorePointer": (context) => IgnorePointerPage(),
+  "/Image": (context) => ImagePage(),
+  "/IndexedStack": (context) => IndexedStackPage(),
+  "/IntrinsicHeight": (context) => IntrinsicHeightPage(),
+  "/IntrinsicWidth": (context) => IntrinsicWidthPage(),
+  "/LayoutBuilder": (context) => LayoutBuilderPage(),
+  "/LimitedBox": (context) => LimitedBoxPage(),
+  "/LinearProgressIndicator": (context) => LinearProgressIndicatorPage(),
+  "/ListBody": (context) => ListBodyPage(),
+  "/ListTile": (context) => ListTilePage(),
+  "/ListView": (context) => ListViewPage(),
+  "/LongPressDraggable": (context) => LongPressDraggablePage(),
+  "/MaterialApp": (context) => MaterialAppPage(),
+  "/MediaQuery": (context) => MediaQueryPage(),
+  "/MergeSemantics": (context) => MergeSemanticsPage(),
+  "/Navigator": (context) => NavigatorPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {
