@@ -118,6 +118,15 @@ import 'package:flutter_demo/tabbar/mine/widgets/o/positioned_transition.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/p/padding.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/p/page_view.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/p/placeholder.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/r/radio.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/r/raised_button.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/r/raw_image.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/r/raw_keyboard_listener.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/r/refresh_indicator.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/r/rich_text.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/r/rotated_box.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/r/rotation_transition.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/r/row.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -230,6 +239,14 @@ final routers = {
   "/Padding": (context) => PaddingPage(),
   "/PopupMenuButton": (context) => PopupMenuButtonPage(),
   "/PositionedTransition": (context) => PositionedTransitionPage(),
+  "/Radio": (context) => RadioPage(),
+  "/RaisedButton": (context) => RaisedButtonPage(),
+  "/RawImage": (context) => RawImagePage(),
+  "/RawKeyboardListener": (context) => RawKeyboardListenerPage(),
+  "/RefreshIndicator": (context) => RefreshIndicatorPage(),
+  "/RotatedBox": (context) => RotatedBoxPage(),
+  "/RotationTransition": (context) => RotationTransitionPage(),
+  "/Row": (context) => RowPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {

@@ -110,6 +110,15 @@ class El {
     O("Placeholder", "/Placeholder"),
     O("PopupMenuButton", "/PopupMenuButton"),
     O("PositionedTransition", "/PositionedTransition"),
+    O("Radio", "/Radio"),
+    O("RaisedButton", "/RaisedButton"),
+    O("RawImage", "/RawImage"),
+    O("RawKeyboardListener", "/RawKeyboardListener"),
+    O("RefreshIndicator", "/RefreshIndicator"),
+    O("RichText", "/RichText"),
+    O("RotatedBox", "/RotatedBox"),
+    O("RotationTransition", "/RotationTransition"),
+    O("Row", "/Row"),
   ];
 }
 El el = El();
