@@ -100,6 +100,16 @@ class El {
     O("MediaQuery", "/MediaQuery"),
     O("MergeSemantics", "/MergeSemantics"),
     O("Navigator", "/Navigator"),
+    O("NestedScrollView", "/NestedScrollView"),
+    O("NotificationListener", "/NotificationListener"),
+    O("Offstage", "/Offstage"),
+    O("Opacity", "/Opacity"),
+    O("OutlineButton", "/OutlineButton"),
+    O("OverflowBox", "/OverflowBox"),
+    O("Padding", "/Padding"),
+    O("Placeholder", "/Placeholder"),
+    O("PopupMenuButton", "/PopupMenuButton"),
+    O("PositionedTransition", "/PositionedTransition"),
   ];
 }
 El el = El();

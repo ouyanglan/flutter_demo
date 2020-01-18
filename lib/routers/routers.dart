@@ -107,6 +107,17 @@ import 'package:flutter_demo/tabbar/mine/widgets/m/material_app.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/m/media_query.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/m/merge_semantics.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/n/navigator.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/n/nested_scroll_view.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/n/notification_listener.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/o/offstage.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/o/opacity.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/o/outline_button.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/o/overflow_box.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/o/popup_menu_button.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/o/positioned_transition.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/p/padding.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/p/page_view.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/p/placeholder.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -213,6 +224,12 @@ final routers = {
   "/MediaQuery": (context) => MediaQueryPage(),
   "/MergeSemantics": (context) => MergeSemanticsPage(),
   "/Navigator": (context) => NavigatorPage(),
+  "/Offstage": (context) => OffstagePage(),
+  "/Opacity": (context) => OpacityPage(),
+  "/OverflowBox": (context) => OverflowBoxPage(),
+  "/Padding": (context) => PaddingPage(),
+  "/PopupMenuButton": (context) => PopupMenuButtonPage(),
+  "/PositionedTransition": (context) => PositionedTransitionPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {
