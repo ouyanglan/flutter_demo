@@ -127,6 +127,8 @@ import 'package:flutter_demo/tabbar/mine/widgets/r/rich_text.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/r/rotated_box.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/r/rotation_transition.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/r/row.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/scale_transition.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/scroll_configuration.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -247,6 +249,8 @@ final routers = {
   "/RotatedBox": (context) => RotatedBoxPage(),
   "/RotationTransition": (context) => RotationTransitionPage(),
   "/Row": (context) => RowPage(),
+  "/ScaleTransition": (context) => ScaleTransitionPage(),
+  "/ScrollConfiguration": (context) => ScrollConfigurationPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {

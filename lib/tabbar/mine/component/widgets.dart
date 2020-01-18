@@ -119,6 +119,8 @@ class El {
     O("RotatedBox", "/RotatedBox"),
     O("RotationTransition", "/RotationTransition"),
     O("Row", "/Row"),
+    O("ScaleTransition", "/ScaleTransition"),
+    O("ScrollConfiguration", "/ScrollConfiguration"),
   ];
 }
 El el = El();
