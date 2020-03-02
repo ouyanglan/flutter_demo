@@ -129,6 +129,21 @@ import 'package:flutter_demo/tabbar/mine/widgets/r/rotation_transition.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/r/row.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/s/scale_transition.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/s/scroll_configuration.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/scrollbar.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/semantics.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/simple_dialog.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/single_child_scroll_view.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/size_transition.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/sized_box.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/sized_overflow_box.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/slide_transition.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/slider.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/sliver_app_bar.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/snack_bar.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/stack.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/stepper.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/stream_builder.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/s/swicth.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -189,6 +204,7 @@ final routers = {
   "/CupertinoTimerPicker": (context) => CupertinoTimerPickerPage(),
   "/CustomMultiChildLayout": (context) => CustomMultiChildLayoutPage(),
   "/CustomPaint": (context) => CustomPaintPage(),
+  "/CustomScrollView": (context) => CustomScrollViewPage(),
   "/CustomSingleChildLayout": (context) => CustomSingleChildLayoutPage(),
   "/DataTable": (context) => DataTablePage(),
   "/DateTimePacker": (context) => DateTimePackerPage(),
@@ -251,6 +267,21 @@ final routers = {
   "/Row": (context) => RowPage(),
   "/ScaleTransition": (context) => ScaleTransitionPage(),
   "/ScrollConfiguration": (context) => ScrollConfigurationPage(),
+  "/Scrollbar": (context) => ScrollbarPage(),
+  "/Semantics": (context) => SemanticsPage(),
+  "/SimpleDialog": (context) => SimpleDialogPage(),
+  "/SingleChildScrollView": (context) => SingleChildScrollViewPage(),
+  "/SizeTransition": (context) => SizeTransitionPage(),
+  "/SizedBox": (context) => SizedBoxPage(),
+  "/SizedOverflowBox": (context) => SizedOverflowBoxPage(),
+  "/SlideTransition": (context) => SlideTransitionPage(),
+  "/Slider": (context) => SliderPage(),
+  "/SliverAppBar": (context) => SliverAppBarPage(),
+  "/SnackBar": (context) => SnackBarPage(),
+  "/Stack": (context) => StackPage(),
+  "/Stepper": (context) => StepperPage(),
+  "/StreamBuilder": (context) => StreamBuilderPage(),
+  "/Switch": (context) => SwitchPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {

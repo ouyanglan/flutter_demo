@@ -203,6 +203,8 @@ flutter:
     - asset/images/p5.jpg
     - asset/images/p6.jpg
     - asset/images/dog1.jpg
+    - asset/images/fj01.jpg
+    - asset/images/fj2.jpg
   fonts:
     - family: message
       fonts:

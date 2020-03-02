@@ -121,6 +121,21 @@ class El {
     O("Row", "/Row"),
     O("ScaleTransition", "/ScaleTransition"),
     O("ScrollConfiguration", "/ScrollConfiguration"),
+    O("Scrollbar   !", "/Scrollbar"),
+    O("Semantics   !", "/Semantics"),
+    O("SimpleDialog", "/SimpleDialog"),
+    O("SingleChildScrollView", "/SingleChildScrollView"),
+    O("SizeTransition", "/SizeTransition"),
+    O("SizedBox", "/SizedBox"),
+    O("SizedOverflowBox", "/SizedOverflowBox"),
+    O("SlideTransition", "/SlideTransition"),
+    O("Slider", "/Slider"),
+    O("SliverAppBar", "/SliverAppBar"),
+    O("SnackBar", "/SnackBar"),
+    O("Stack", "/Stack"),
+    O("Stepper", "/Stepper"),
+    O("StreamBuilder", "/StreamBuilder    !"),
+    O("Switch", "/Switch"),
   ];
 }
 El el = El();
