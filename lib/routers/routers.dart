@@ -144,6 +144,15 @@ import 'package:flutter_demo/tabbar/mine/widgets/s/stack.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/s/stepper.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/s/stream_builder.dart';
 import 'package:flutter_demo/tabbar/mine/widgets/s/swicth.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/t/tab_bar.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/t/table.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/t/text.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/t/text_field.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/t/theme.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/t/tooltip.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/t/transform.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/w/widgets_app.dart';
+import 'package:flutter_demo/tabbar/mine/widgets/w/wrap.dart';
 
 final routers = {
   "/": (context) => TabBarPage(),
@@ -282,6 +291,16 @@ final routers = {
   "/Stepper": (context) => StepperPage(),
   "/StreamBuilder": (context) => StreamBuilderPage(),
   "/Switch": (context) => SwitchPage(),
+  "/TabBar": (context) => WTabBarPage(),
+  "/TabBarView": (context) => WTabBarPage(),
+  "/Table": (context) => TablePage(),
+  "/Text": (context) => TextPage(),
+  "/TextField": (context) => TextFieldPage(),
+  "/Theme": (context) => ThemePage(),
+  "/Tooltip": (context) => TooltipPage(),
+  "/Transform": (context) => TransformPage(),
+  "/WidgetsApp": (context) => WidgetsAppPage(),
+  "/Wrap": (context) => WrapPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {

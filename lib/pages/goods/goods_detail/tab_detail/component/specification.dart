@@ -29,7 +29,7 @@ class PTable extends StatelessWidget {
 
   final List<List<String>> list;
 
-  TableBorder tableBorder;
+  final TableBorder tableBorder;
 
   final int column;
 
@@ -88,7 +88,7 @@ class Cell extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       // 设置了高度时是Container居中,Text显示位置需要指定 alignment
-      padding: EdgeInsets.fromLTRB(20, 10, 0, 10),
+      padding: EdgeInsets.fromLTRB(10, 10, 0, 10),
       alignment: Alignment.centerLeft,
       child: Text(
         text,

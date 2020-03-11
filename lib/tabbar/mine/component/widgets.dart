@@ -134,8 +134,18 @@ class El {
     O("SnackBar", "/SnackBar"),
     O("Stack", "/Stack"),
     O("Stepper", "/Stepper"),
-    O("StreamBuilder", "/StreamBuilder    !"),
+    O("StreamBuilder    !", "/StreamBuilder"),
     O("Switch", "/Switch"),
+    O("TabBar", "/TabBar"),
+    O("TabBarView", "/TabBarView"),
+    O("Table", "/Table"),
+    O("Text  !", "/Text"),
+    O("TextField   !", "/TextField"),
+    O("Theme   !", "/Theme"),
+    O("Tooltip   !", "/Tooltip"),
+    O("Transform   !", "/Transform"),
+    O("WidgetsApp   !", "/WidgetsApp"),
+    O("Wrap   !", "/Wrap"),
   ];
 }
 El el = El();
